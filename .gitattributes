@@ -1,0 +1,6 @@
+# Windows 의 Git 은 받을 때 줄 끝을 CRLF 로 바꿀 수 있다. 그러면 sh 스크립트(#!/bin/sh)가 돌지 않아서 LF 로 묶는다.
+# 표 재료(csv)는 만든 그대로 둔다
+* text=auto eol=lf
+*.csv -text
+*.png binary
+*.jpg binary

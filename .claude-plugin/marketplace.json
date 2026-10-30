@@ -1,0 +1,16 @@
+{
+  "name": "nangmanpogu",
+  "owner": { "name": "낭만포구" },
+  "metadata": {
+    "description": "낭만포구가 만든 Claude Code 플러그인"
+  },
+  "plugins": [
+    {
+      "name": "workbook-tutor",
+      "source": "./plugins/workbook-tutor",
+      "description": "클코 학습지의 학습 도우미. 프로젝트를 시작하고(/시작), 막힌 단계를 돕고(/막혔어), 학습지를 Claude 앱 안에 열어요(/학습지).",
+      "author": { "name": "낭만포구" },
+      "homepage": "https://console.clcoach.nangmanpg.com"
+    }
+  ]
+}
